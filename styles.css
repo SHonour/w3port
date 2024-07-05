@@ -1,0 +1,121 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color:skyblue;
+  color: black;
+  padding: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-top: auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: skyblue;
+  /*background-color: #d1b19a*/
+}
+
+ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.experience-item {
+  margin-bottom: 10px;
+}
+
+.experience-item h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.experience-item h5 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.experience-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{ 
+  text-decoration: underline;
+  color: hotpink;
+}
